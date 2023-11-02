@@ -37,7 +37,7 @@ class BaseAPI<T: RequestRequirement> {
                         return handler(.failure(NSError()))
                     }
                     
-                    //TODO: Devam et
+                    handler(.success(response))
                 } else {
                     return handler(.failure(NSError()))
                 }

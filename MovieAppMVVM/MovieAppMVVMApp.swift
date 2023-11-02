@@ -11,7 +11,7 @@ import SwiftUI
 struct MovieAppMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MovieListScreen()
         }
     }
 }

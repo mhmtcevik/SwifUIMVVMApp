@@ -27,4 +27,8 @@ struct Movie: Codable {
         case imdbId = "imdbID"
         case poster = "Poster"
     }
+    
+    var posterURL: URL {
+        URL(string: poster) ?? URL(string: "")!
+    }
 }

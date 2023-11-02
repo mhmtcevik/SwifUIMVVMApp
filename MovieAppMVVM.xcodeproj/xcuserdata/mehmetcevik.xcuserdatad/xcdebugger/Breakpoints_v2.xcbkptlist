@@ -7,16 +7,160 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CB762851-DDCE-4766-9BD6-6A00F06314A6"
-            shouldBeEnabled = "Yes"
+            uuid = "0FC6484D-5614-480B-B6EC-42517B9345AE"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MovieAppMVVM/API/BaseAPI.swift"
+            filePath = "MovieAppMVVM/Screens/MovieDetail/MovieDetailScreen.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "fetchData(target:responseType:handler:)"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1509A12F-A76C-47BE-BB46-D94512EA3DD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieAppMVVM/Screens/MovieDetail/MovieDetailScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CEE6B8C-DA4C-4143-9B11-D77A481C1AC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieAppMVVM/Screens/MovieDetail/MovieDetailScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "7CEE6B8C-DA4C-4143-9B11-D77A481C1AC1 - 44a785183804223d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of MovieAppMVVM.MovieDetailScreen.progressBar : some&gt;&gt;.0)&gt;, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of MovieAppMVVM.MovieDetailScreen.movieImage : some&gt;&gt;.0, &lt;&lt;opaque return type of MovieAppMVVM.MovieDetailScreen.details : some&gt;&gt;.0)&gt;&gt;, SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of MovieAppMVVM.MovieDetailScreen.failedImage : some&gt;&gt;.0)&gt;&gt;&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in MovieAppMVVM.MovieDetailScreen.body.getter : some"
+                  moduleName = "MovieAppMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehmetcevik/Desktop/MovieAppMVVM/MovieAppMVVM/Screens/MovieDetail/MovieDetailScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "2236">
+               </Location>
+               <Location
+                  uuid = "7CEE6B8C-DA4C-4143-9B11-D77A481C1AC1 - 44a785183804223d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI._ConditionalContent&lt;SwiftUI._ConditionalContent&lt;SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of MovieAppMVVM.MovieDetailScreen.progressBar : some&gt;&gt;.0)&gt;, SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of MovieAppMVVM.MovieDetailScreen.movieImage : some&gt;&gt;.0, &lt;&lt;opaque return type of MovieAppMVVM.MovieDetailScreen.details : some&gt;&gt;.0)&gt;&gt;, SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of MovieAppMVVM.MovieDetailScreen.failedImage : some&gt;&gt;.0)&gt;&gt;&gt;, SwiftUI.Spacer)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in MovieAppMVVM.MovieDetailScreen.body.getter : some"
+                  moduleName = "MovieAppMVVM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mehmetcevik/Desktop/MovieAppMVVM/MovieAppMVVM/Screens/MovieDetail/MovieDetailScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "2464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F964E742-2324-46E3-A013-A0DD0FEA03D0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieAppMVVM/Screens/MovieDetail/MovieDetailScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01B77323-8CEE-4AD4-B817-68456F3AD311"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieAppMVVM/Screens/MovieDetail/MovieDetailScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MovieDetailScreen"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DD302B3-9606-4714-BBFB-2486C0BC2159"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieAppMVVM/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "fetchMovieById(imdbId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4767319A-0806-4B8A-A58B-87CC9B530FB9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieAppMVVM/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fetchMovieById(imdbId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7D2DCCF-9A53-4295-AE83-2B2D5AAA9023"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieAppMVVM/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "fetchMovieById(imdbId:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

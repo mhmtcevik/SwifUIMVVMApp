@@ -9,7 +9,7 @@ import Foundation
 
 protocol MovieAPI {
     func fetchMovieBySearching(path: String, parameters: Parameter, completionHandler: @escaping (Result<IMDBResponse, NSError>) -> Void)
-    func fetchMovieById(path: String, parameters: Parameter, completionHandler: @escaping (Result<Movie, NSError>) -> Void)
+    func fetchMovieById(path: String, parameters: Parameter, completionHandler: @escaping (Result<MovieDetail, NSError>) -> Void)
 }
 
 class HTTPService: BaseAPI<Networking>, MovieAPI {
@@ -17,9 +17,9 @@ class HTTPService: BaseAPI<Networking>, MovieAPI {
     func fetchMovieById(
         path: String,
         parameters: Parameter,
-        completionHandler: @escaping (Result<Movie, NSError>) -> Void) {
+        completionHandler: @escaping (Result<MovieDetail, NSError>) -> Void) {
             
-            fetchData(target: .getMovieById(path: path, parameter: parameters), responseType: Movie.self) { result in
+            fetchData(target: .getMovieById(path: path, parameter: parameters), responseType: MovieDetail.self) { result in
                 completionHandler(result)
             }
         }
@@ -34,5 +34,7 @@ class HTTPService: BaseAPI<Networking>, MovieAPI {
             }
             
         }
+    
+    
     
 }
